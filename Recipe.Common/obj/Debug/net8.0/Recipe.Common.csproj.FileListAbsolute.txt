@@ -1,0 +1,13 @@
+E:\Prioxis\Recipe.Common\bin\Debug\net8.0\Recipe.Common.deps.json
+E:\Prioxis\Recipe.Common\bin\Debug\net8.0\Recipe.Common.dll
+E:\Prioxis\Recipe.Common\bin\Debug\net8.0\Recipe.Common.pdb
+E:\Prioxis\Recipe.Common\obj\Debug\net8.0\Recipe.Common.csproj.AssemblyReference.cache
+E:\Prioxis\Recipe.Common\obj\Debug\net8.0\Recipe.Common.GeneratedMSBuildEditorConfig.editorconfig
+E:\Prioxis\Recipe.Common\obj\Debug\net8.0\Recipe.Common.AssemblyInfoInputs.cache
+E:\Prioxis\Recipe.Common\obj\Debug\net8.0\Recipe.Common.AssemblyInfo.cs
+E:\Prioxis\Recipe.Common\obj\Debug\net8.0\Recipe.Common.csproj.CoreCompileInputs.cache
+E:\Prioxis\Recipe.Common\obj\Debug\net8.0\Recipe.Common.sourcelink.json
+E:\Prioxis\Recipe.Common\obj\Debug\net8.0\Recipe.Common.dll
+E:\Prioxis\Recipe.Common\obj\Debug\net8.0\refint\Recipe.Common.dll
+E:\Prioxis\Recipe.Common\obj\Debug\net8.0\Recipe.Common.pdb
+E:\Prioxis\Recipe.Common\obj\Debug\net8.0\ref\Recipe.Common.dll
