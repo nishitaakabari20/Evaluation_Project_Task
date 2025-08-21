@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "D0rNd0VmaQo=",
+  "dgSpecHash": "/ZUV7hZ1XsE=",
   "success": true,
-  "projectFilePath": "E:\\Prioxis\\Recipe.Model\\Recipe.Model.csproj",
+  "projectFilePath": "E:\\Prioxis\\Evaluation\\Recipe.Model\\Recipe.Model.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\akbar\\.nuget\\packages\\automapper\\12.0.1\\automapper.12.0.1.nupkg.sha512",
     "C:\\Users\\akbar\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\12.0.1\\automapper.extensions.microsoft.dependencyinjection.12.0.1.nupkg.sha512",

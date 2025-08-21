@@ -7061,3 +7061,634 @@ System.IO.IOException: Received an unexpected EOF or 0 bytes from the transport 
 2025-08-20 14:09:12.168 +05:30 [DBG] Connection id "0HNEVOH8MCO79" sending FIN because: "The Socket transport's send loop completed gracefully."
 2025-08-20 14:09:12.169 +05:30 [DBG] The connection queue processing loop for 0HNEVOH8MCO79 completed.
 2025-08-20 14:09:12.173 +05:30 [DBG] Connection id "0HNEVOH8MCO79" stopped.
+2025-08-20 15:10:39.038 +05:30 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2025-08-20 15:10:39.227 +05:30 [DBG] Hosting starting
+2025-08-20 15:10:39.551 +05:30 [INF] Now listening on: https://localhost:7248
+2025-08-20 15:10:39.552 +05:30 [INF] Now listening on: http://localhost:5123
+2025-08-20 15:10:39.553 +05:30 [DBG] Loaded hosting startup assembly Test_api
+2025-08-20 15:10:39.554 +05:30 [DBG] Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2025-08-20 15:10:39.554 +05:30 [DBG] Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2025-08-20 15:10:39.556 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2025-08-20 15:10:39.557 +05:30 [INF] Hosting environment: Development
+2025-08-20 15:10:39.557 +05:30 [INF] Content root path: E:\Prioxis\Evaluation\Test_api
+2025-08-20 15:10:39.558 +05:30 [DBG] Hosting started
+2025-08-20 15:10:39.601 +05:30 [DBG] Connection id "0HNEVPMFQ5CR4" accepted.
+2025-08-20 15:10:39.603 +05:30 [DBG] Connection id "0HNEVPMFQ5CR4" started.
+2025-08-20 15:10:39.606 +05:30 [DBG] Connection id "0HNEVPMFQ5CR5" accepted.
+2025-08-20 15:10:39.607 +05:30 [DBG] Connection id "0HNEVPMFQ5CR5" started.
+2025-08-20 15:10:39.639 +05:30 [DBG] Connection id "0HNEVPMFQ5CR4" received FIN.
+2025-08-20 15:10:39.639 +05:30 [DBG] Connection id "0HNEVPMFQ5CR5" received FIN.
+2025-08-20 15:10:39.661 +05:30 [DBG] Failed to authenticate HTTPS connection.
+System.IO.IOException: Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.ReceiveHandshakeFrameAsync[TIOAdapter](CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](Boolean receiveFirst, Byte[] reAuthenticationData, CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.ProcessAuthenticationWithTelemetryAsync(Boolean isAsync, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2025-08-20 15:10:39.660 +05:30 [DBG] Failed to authenticate HTTPS connection.
+System.IO.IOException: Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.ReceiveHandshakeFrameAsync[TIOAdapter](CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](Boolean receiveFirst, Byte[] reAuthenticationData, CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.ProcessAuthenticationWithTelemetryAsync(Boolean isAsync, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2025-08-20 15:10:39.736 +05:30 [DBG] Connection id "0HNEVPMFQ5CR5" stopped.
+2025-08-20 15:10:39.736 +05:30 [DBG] Connection id "0HNEVPMFQ5CR4" stopped.
+2025-08-20 15:10:39.746 +05:30 [DBG] Connection id "0HNEVPMFQ5CR5" sending FIN because: "The Socket transport's send loop completed gracefully."
+2025-08-20 15:10:39.748 +05:30 [DBG] Connection id "0HNEVPMFQ5CR4" sending FIN because: "The Socket transport's send loop completed gracefully."
+2025-08-20 15:10:43.063 +05:30 [DBG] Connection id "0HNEVPMFQ5CR6" accepted.
+2025-08-20 15:10:43.068 +05:30 [DBG] Connection id "0HNEVPMFQ5CR6" started.
+2025-08-20 15:10:43.175 +05:30 [DBG] Connection 0HNEVPMFQ5CR6 established using the following protocol: "Tls13"
+2025-08-20 15:10:43.329 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7248/swagger/index.html - null null
+2025-08-20 15:10:43.597 +05:30 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2025-08-20 15:10:43.633 +05:30 [DBG] No candidates found for the request path '/swagger/index.html'
+2025-08-20 15:10:43.637 +05:30 [DBG] Request did not match any endpoints
+2025-08-20 15:10:43.850 +05:30 [DBG] Response markup is scheduled to include Browser Link script injection.
+2025-08-20 15:10:43.861 +05:30 [DBG] Response markup is scheduled to include browser refresh script injection.
+2025-08-20 15:10:43.941 +05:30 [DBG] Response markup was updated to include Browser Link script injection.
+2025-08-20 15:10:43.949 +05:30 [DBG] Response markup was updated to include browser refresh script injection.
+2025-08-20 15:10:43.962 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7248/swagger/index.html - 200 null text/html;charset=utf-8 642.6944ms
+2025-08-20 15:10:44.230 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7248/_framework/aspnetcore-browser-refresh.js - null null
+2025-08-20 15:10:44.250 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7248/_vs/browserLink - null null
+2025-08-20 15:10:44.252 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7248/_framework/aspnetcore-browser-refresh.js - 200 13752 application/javascript; charset=utf-8 21.6999ms
+2025-08-20 15:10:44.552 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7248/_vs/browserLink - 200 null text/javascript; charset=UTF-8 302.5959ms
+2025-08-20 15:10:45.671 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7248/swagger/v1/swagger.json - null null
+2025-08-20 15:10:45.677 +05:30 [DBG] No candidates found for the request path '/swagger/v1/swagger.json'
+2025-08-20 15:10:45.678 +05:30 [DBG] Request did not match any endpoints
+2025-08-20 15:10:47.085 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7248/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 1413.6011ms
+2025-08-20 15:10:48.130 +05:30 [DBG] Connection id "0HNEVPMFQ5CR6" received FIN.
+2025-08-20 15:10:48.140 +05:30 [DBG] The connection queue processing loop for 0HNEVPMFQ5CR6 completed.
+2025-08-20 15:10:48.140 +05:30 [DBG] Connection id "0HNEVPMFQ5CR6" is closed. The last processed stream ID was 7.
+2025-08-20 15:10:48.143 +05:30 [DBG] Connection id "0HNEVPMFQ5CR6" sending FIN because: "The Socket transport's send loop completed gracefully."
+2025-08-20 15:10:48.148 +05:30 [DBG] Connection id "0HNEVPMFQ5CR6" stopped.
+2025-08-20 15:10:58.924 +05:30 [DBG] Connection id "0HNEVPMFQ5CR7" accepted.
+2025-08-20 15:10:58.930 +05:30 [DBG] Connection id "0HNEVPMFQ5CR7" started.
+2025-08-20 15:10:58.938 +05:30 [DBG] Connection 0HNEVPMFQ5CR7 established using the following protocol: "Tls13"
+2025-08-20 15:10:58.950 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7248/api/Recipes - null null
+2025-08-20 15:10:58.956 +05:30 [DBG] 1 candidate(s) found for the request path '/api/Recipes'
+2025-08-20 15:10:58.964 +05:30 [DBG] Endpoint 'Test_api.Controllers.RecipesController.GetAllUsers (Test_api)' with route pattern 'api/Recipes' is valid for the request path '/api/Recipes'
+2025-08-20 15:10:58.966 +05:30 [DBG] Request matched endpoint 'Test_api.Controllers.RecipesController.GetAllUsers (Test_api)'
+2025-08-20 15:10:58.971 +05:30 [DBG] Static files was skipped as the request already matched an endpoint.
+2025-08-20 15:10:58.976 +05:30 [INF] Executing endpoint 'Test_api.Controllers.RecipesController.GetAllUsers (Test_api)'
+2025-08-20 15:10:59.045 +05:30 [INF] Route matched with {action = "GetAllUsers", controller = "Recipes"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAllUsers(Recipe.Model.CommonModel.SearchRequestModel) on controller Test_api.Controllers.RecipesController (Test_api).
+2025-08-20 15:10:59.049 +05:30 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2025-08-20 15:10:59.050 +05:30 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2025-08-20 15:10:59.051 +05:30 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2025-08-20 15:10:59.053 +05:30 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2025-08-20 15:10:59.054 +05:30 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2025-08-20 15:10:59.058 +05:30 [DBG] Executing controller factory for controller Test_api.Controllers.RecipesController (Test_api)
+2025-08-20 15:10:59.410 +05:30 [DBG] An 'IServiceProvider' was created for internal use by Entity Framework.
+2025-08-20 15:10:59.449 +05:30 [DBG] Executed controller factory for controller Test_api.Controllers.RecipesController (Test_api)
+2025-08-20 15:10:59.484 +05:30 [DBG] Attempting to bind parameter 'model' of type 'Recipe.Model.CommonModel.SearchRequestModel' ...
+2025-08-20 15:10:59.487 +05:30 [DBG] Attempting to bind parameter 'model' of type 'Recipe.Model.CommonModel.SearchRequestModel' using the name '' in request data ...
+2025-08-20 15:10:59.495 +05:30 [DBG] Attempting to bind property 'Recipe.Model.CommonModel.SearchRequestModel.SearchText' of type 'System.String' using the name 'SearchText' in request data ...
+2025-08-20 15:10:59.498 +05:30 [DBG] Could not find a value in the request with name 'SearchText' for binding property 'Recipe.Model.CommonModel.SearchRequestModel.SearchText' of type 'System.String'.
+2025-08-20 15:10:59.499 +05:30 [DBG] Done attempting to bind property 'Recipe.Model.CommonModel.SearchRequestModel.SearchText' of type 'System.String'.
+2025-08-20 15:10:59.501 +05:30 [DBG] Attempting to bind property 'Recipe.Model.CommonModel.SearchRequestModel.Page' of type 'System.Int32' using the name 'Page' in request data ...
+2025-08-20 15:10:59.502 +05:30 [DBG] Could not find a value in the request with name 'Page' for binding property 'Recipe.Model.CommonModel.SearchRequestModel.Page' of type 'System.Int32'.
+2025-08-20 15:10:59.503 +05:30 [DBG] Done attempting to bind property 'Recipe.Model.CommonModel.SearchRequestModel.Page' of type 'System.Int32'.
+2025-08-20 15:10:59.504 +05:30 [DBG] Attempting to bind property 'Recipe.Model.CommonModel.SearchRequestModel.PageSize' of type 'System.Int32' using the name 'PageSize' in request data ...
+2025-08-20 15:10:59.505 +05:30 [DBG] Could not find a value in the request with name 'PageSize' for binding property 'Recipe.Model.CommonModel.SearchRequestModel.PageSize' of type 'System.Int32'.
+2025-08-20 15:10:59.505 +05:30 [DBG] Done attempting to bind property 'Recipe.Model.CommonModel.SearchRequestModel.PageSize' of type 'System.Int32'.
+2025-08-20 15:10:59.507 +05:30 [DBG] Attempting to bind property 'Recipe.Model.CommonModel.SearchRequestModel.SortColumn' of type 'System.String' using the name 'SortColumn' in request data ...
+2025-08-20 15:10:59.508 +05:30 [DBG] Could not find a value in the request with name 'SortColumn' for binding property 'Recipe.Model.CommonModel.SearchRequestModel.SortColumn' of type 'System.String'.
+2025-08-20 15:10:59.508 +05:30 [DBG] Done attempting to bind property 'Recipe.Model.CommonModel.SearchRequestModel.SortColumn' of type 'System.String'.
+2025-08-20 15:10:59.509 +05:30 [DBG] Attempting to bind property 'Recipe.Model.CommonModel.SearchRequestModel.SortOrder' of type 'System.String' using the name 'SortOrder' in request data ...
+2025-08-20 15:10:59.513 +05:30 [DBG] Could not find a value in the request with name 'SortOrder' for binding property 'Recipe.Model.CommonModel.SearchRequestModel.SortOrder' of type 'System.String'.
+2025-08-20 15:10:59.515 +05:30 [DBG] Done attempting to bind property 'Recipe.Model.CommonModel.SearchRequestModel.SortOrder' of type 'System.String'.
+2025-08-20 15:10:59.516 +05:30 [DBG] Attempting to bind property 'Recipe.Model.CommonModel.SearchRequestModel.Filters' of type 'System.String' using the name 'Filters' in request data ...
+2025-08-20 15:10:59.517 +05:30 [DBG] Could not find a value in the request with name 'Filters' for binding property 'Recipe.Model.CommonModel.SearchRequestModel.Filters' of type 'System.String'.
+2025-08-20 15:10:59.517 +05:30 [DBG] Done attempting to bind property 'Recipe.Model.CommonModel.SearchRequestModel.Filters' of type 'System.String'.
+2025-08-20 15:10:59.519 +05:30 [DBG] Done attempting to bind parameter 'model' of type 'Recipe.Model.CommonModel.SearchRequestModel'.
+2025-08-20 15:10:59.520 +05:30 [DBG] Done attempting to bind parameter 'model' of type 'Recipe.Model.CommonModel.SearchRequestModel'.
+2025-08-20 15:10:59.520 +05:30 [DBG] Attempting to validate the bound parameter 'model' of type 'Recipe.Model.CommonModel.SearchRequestModel' ...
+2025-08-20 15:10:59.533 +05:30 [DBG] Done attempting to validate the bound parameter 'model' of type 'Recipe.Model.CommonModel.SearchRequestModel'.
+2025-08-20 15:10:59.681 +05:30 [INF] Fetching recipes with parameters: {"SearchText":null,"Page":1,"PageSize":10,"SortColumn":null,"SortOrder":null,"Filters":null,"$type":"SearchRequestModel"}
+2025-08-20 15:11:00.904 +05:30 [DBG] Entity Framework Core 9.0.8 initialized 'RecipeSpContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:9.0.8' with options: EngineType=SqlServer 
+2025-08-20 15:11:01.059 +05:30 [DBG] Compiling query expression: 
+'DbSet<ExecutreStoreProcedureResultList>().FromSql([dbo].[sp_get_all_recipes] {0}, __p_0)
+'
+2025-08-20 15:11:01.458 +05:30 [DBG] Generated query execution expression: 
+'queryContext => FromSqlQueryingEnumerable.Create<ExecutreStoreProcedureResultList>(
+    relationalQueryContext: (RelationalQueryContext)queryContext, 
+    relationalCommandResolver: parameters => [LIFTABLE Constant: RelationalCommandCache.QueryExpression(
+        Projection Mapping:
+            EmptyProjectionMember -> Dictionary<IProperty, int> { [Property: ExecutreStoreProcedureResultList.ErrorMessage (string), 0], [Property: ExecutreStoreProcedureResultList.Result (string), 1], [Property: ExecutreStoreProcedureResultList.TotalCount (int?), 2] }
+        SELECT u.ErrorMessage, u.Result, u.TotalCount
+        FROM [dbo].[sp_get_all_recipes] {0}) | Resolver: c => new RelationalCommandCache(
+        c.Dependencies.MemoryCache, 
+        c.RelationalDependencies.QuerySqlGeneratorFactory, 
+        c.RelationalDependencies.RelationalParameterBasedSqlProcessorFactory, 
+        Projection Mapping:
+            EmptyProjectionMember -> Dictionary<IProperty, int> { [Property: ExecutreStoreProcedureResultList.ErrorMessage (string), 0], [Property: ExecutreStoreProcedureResultList.Result (string), 1], [Property: ExecutreStoreProcedureResultList.TotalCount (int?), 2] }
+        SELECT u.ErrorMessage, u.Result, u.TotalCount
+        FROM [dbo].[sp_get_all_recipes] {0}, 
+        False, 
+        new HashSet<string>(
+            new string[]{ }, 
+            StringComparer.Ordinal
+        )
+    )].GetRelationalCommandTemplate(parameters), 
+    readerColumns: null, 
+    columnNames: [LIFTABLE Constant: string[] { "ErrorMessage", "Result", "TotalCount" } | Resolver: _ => new string[]
+    { 
+        "ErrorMessage", 
+        "Result", 
+        "TotalCount" 
+    }], 
+    shaper: (queryContext, dataReader, indexMap) => 
+    {
+        ExecutreStoreProcedureResultList entity;
+        entity = 
+        {
+            MaterializationContext materializationContext1;
+            IEntityType entityType1;
+            ExecutreStoreProcedureResultList instance1;
+            materializationContext1 = new MaterializationContext(
+                [LIFTABLE Constant: ValueBuffer | Resolver: _ => (object)ValueBuffer.Empty], 
+                queryContext.Context
+            );
+            instance1 = default(ExecutreStoreProcedureResultList);
+            {
+                ISnapshot shadowSnapshot1;
+                shadowSnapshot1 = [LIFTABLE Constant: Snapshot | Resolver: _ => Snapshot.Empty];
+                entityType1 = [LIFTABLE Constant: EntityType: ExecutreStoreProcedureResultList Keyless | Resolver: namelessParameter{0} => namelessParameter{0}.Dependencies.Model.FindEntityType("User.Model.SpDbContext.ExecutreStoreProcedureResultList")];
+                instance1 = switch (entityType1)
+                {
+                    case [LIFTABLE Constant: EntityType: ExecutreStoreProcedureResultList Keyless | Resolver: namelessParameter{1} => namelessParameter{1}.Dependencies.Model.FindEntityType("User.Model.SpDbContext.ExecutreStoreProcedureResultList")]: 
+                        {
+                            return 
+                            {
+                                ExecutreStoreProcedureResultList instance;
+                                instance = new ExecutreStoreProcedureResultList();
+                                instance.<ErrorMessage>k__BackingField = dataReader.IsDBNull(indexMap[0]) ? default(string) : dataReader.GetString(indexMap[0]);
+                                instance.<Result>k__BackingField = dataReader.IsDBNull(indexMap[1]) ? default(string) : dataReader.GetString(indexMap[1]);
+                                instance.<TotalCount>k__BackingField = dataReader.IsDBNull(indexMap[2]) ? default(int?) : (int?)dataReader.GetInt32(indexMap[2]);
+                                (instance is IInjectableService) ? ((IInjectableService)instance).Injected(
+                                    context: materializationContext1.Context, 
+                                    entity: instance, 
+                                    queryTrackingBehavior: TrackAll, 
+                                    structuralType: [LIFTABLE Constant: EntityType: ExecutreStoreProcedureResultList Keyless | Resolver: namelessParameter{2} => namelessParameter{2}.Dependencies.Model.FindEntityType("User.Model.SpDbContext.ExecutreStoreProcedureResultList")]) : default(void);
+                                return instance;
+                            }}
+                    default: 
+                        default(ExecutreStoreProcedureResultList)
+                }
+                ;
+                return instance1;
+            }return instance1;
+        };
+        return entity;
+    }, 
+    contextType: Recipe.Model.RecipeSPContext.RecipeSpContext, 
+    standAloneStateManager: False, 
+    detailedErrorsEnabled: False, 
+    threadSafetyChecksEnabled: True)'
+2025-08-20 15:11:01.502 +05:30 [DBG] Creating DbConnection.
+2025-08-20 15:11:01.537 +05:30 [DBG] Created DbConnection. (34ms).
+2025-08-20 15:11:01.546 +05:30 [DBG] Opening connection to database 'Recipe_Management_System' on server 'ADMIN\SQLEXPRESS01'.
+2025-08-20 15:11:02.420 +05:30 [DBG] Opened connection to database 'Recipe_Management_System' on server 'ADMIN\SQLEXPRESS01'.
+2025-08-20 15:11:02.425 +05:30 [DBG] Creating DbCommand for 'ExecuteReader'.
+2025-08-20 15:11:02.433 +05:30 [DBG] Created DbCommand for 'ExecuteReader' (7ms).
+2025-08-20 15:11:02.446 +05:30 [DBG] Initialized DbCommand for 'ExecuteReader' (18ms).
+2025-08-20 15:11:02.455 +05:30 [DBG] Executing DbCommand [Parameters=[p0='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+[dbo].[sp_get_all_recipes] @p0
+2025-08-20 15:11:03.007 +05:30 [INF] Executed DbCommand (551ms) [Parameters=[p0='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+[dbo].[sp_get_all_recipes] @p0
+2025-08-20 15:11:03.055 +05:30 [DBG] Closing data reader to 'Recipe_Management_System' on server 'ADMIN\SQLEXPRESS01'.
+2025-08-20 15:11:03.072 +05:30 [DBG] A data reader for 'Recipe_Management_System' on server 'ADMIN\SQLEXPRESS01' is being disposed after spending 49ms reading results.
+2025-08-20 15:11:03.076 +05:30 [DBG] Closing connection to database 'Recipe_Management_System' on server 'ADMIN\SQLEXPRESS01'.
+2025-08-20 15:11:03.088 +05:30 [DBG] Closed connection to database 'Recipe_Management_System' on server 'ADMIN\SQLEXPRESS01' (11ms).
+2025-08-20 15:11:03.251 +05:30 [INF] Fetched 10 recipes
+2025-08-20 15:11:03.273 +05:30 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter"]
+2025-08-20 15:11:03.276 +05:30 [DBG] No information found on request to perform content negotiation.
+2025-08-20 15:11:03.282 +05:30 [DBG] Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+2025-08-20 15:11:03.283 +05:30 [DBG] Attempting to select the first formatter in the output formatters list which can write the result.
+2025-08-20 15:11:03.284 +05:30 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter' and content type 'application/json' to write the response.
+2025-08-20 15:11:03.285 +05:30 [INF] Executing OkObjectResult, writing value of type 'Recipe.Model.CommonModel.Page'.
+2025-08-20 15:11:03.316 +05:30 [INF] Executed action Test_api.Controllers.RecipesController.GetAllUsers (Test_api) in 4253.2269ms
+2025-08-20 15:11:03.333 +05:30 [INF] Executed endpoint 'Test_api.Controllers.RecipesController.GetAllUsers (Test_api)'
+2025-08-20 15:11:03.356 +05:30 [DBG] 'RecipeSpContext' disposed.
+2025-08-20 15:11:03.366 +05:30 [DBG] Disposing connection to database 'Recipe_Management_System' on server 'ADMIN\SQLEXPRESS01'.
+2025-08-20 15:11:03.367 +05:30 [DBG] Disposed connection to database '' on server '' (1ms).
+2025-08-20 15:11:03.368 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7248/api/Recipes - 200 null application/json; charset=utf-8 4418.8271ms
+2025-08-20 15:11:08.141 +05:30 [DBG] Connection id "0HNEVPMFQ5CR7" received FIN.
+2025-08-20 15:11:08.146 +05:30 [DBG] Connection id "0HNEVPMFQ5CR7" is closed. The last processed stream ID was 1.
+2025-08-20 15:11:08.146 +05:30 [DBG] The connection queue processing loop for 0HNEVPMFQ5CR7 completed.
+2025-08-20 15:11:08.149 +05:30 [DBG] Connection id "0HNEVPMFQ5CR7" sending FIN because: "The Socket transport's send loop completed gracefully."
+2025-08-20 15:11:08.169 +05:30 [DBG] Connection id "0HNEVPMFQ5CR7" stopped.
+2025-08-20 15:15:47.531 +05:30 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2025-08-20 15:15:47.716 +05:30 [DBG] Hosting starting
+2025-08-20 15:15:48.053 +05:30 [DBG] Connection id "0HNEVPPBNPEDB" received FIN.
+2025-08-20 15:15:48.062 +05:30 [DBG] Connection id "0HNEVPPBNPEDB" accepted.
+2025-08-20 15:15:48.064 +05:30 [DBG] Connection id "0HNEVPPBNPEDB" started.
+2025-08-20 15:15:48.068 +05:30 [INF] Now listening on: https://localhost:7248
+2025-08-20 15:15:48.069 +05:30 [INF] Now listening on: http://localhost:5123
+2025-08-20 15:15:48.070 +05:30 [DBG] Loaded hosting startup assembly Test_api
+2025-08-20 15:15:48.071 +05:30 [DBG] Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2025-08-20 15:15:48.076 +05:30 [DBG] Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2025-08-20 15:15:48.079 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2025-08-20 15:15:48.081 +05:30 [INF] Hosting environment: Development
+2025-08-20 15:15:48.081 +05:30 [INF] Content root path: E:\Prioxis\Evaluation\Test_api
+2025-08-20 15:15:48.082 +05:30 [DBG] Hosting started
+2025-08-20 15:15:48.099 +05:30 [DBG] Failed to authenticate HTTPS connection.
+System.IO.IOException: Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.ReceiveHandshakeFrameAsync[TIOAdapter](CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](Boolean receiveFirst, Byte[] reAuthenticationData, CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.ProcessAuthenticationWithTelemetryAsync(Boolean isAsync, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2025-08-20 15:15:48.191 +05:30 [DBG] Connection id "0HNEVPPBNPEDB" stopped.
+2025-08-20 15:15:48.343 +05:30 [DBG] Connection id "0HNEVPPBNPEDB" sending FIN because: "The Socket transport's send loop completed gracefully."
+2025-08-20 15:15:49.073 +05:30 [DBG] Connection id "0HNEVPPBNPEDC" accepted.
+2025-08-20 15:15:49.118 +05:30 [DBG] Connection id "0HNEVPPBNPEDC" started.
+2025-08-20 15:15:49.249 +05:30 [DBG] Connection 0HNEVPPBNPEDC established using the following protocol: "Tls13"
+2025-08-20 15:15:49.500 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7248/swagger/index.html - null null
+2025-08-20 15:15:49.994 +05:30 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2025-08-20 15:15:50.018 +05:30 [DBG] No candidates found for the request path '/swagger/index.html'
+2025-08-20 15:15:50.019 +05:30 [DBG] Request did not match any endpoints
+2025-08-20 15:15:50.216 +05:30 [DBG] Response markup is scheduled to include Browser Link script injection.
+2025-08-20 15:15:50.219 +05:30 [DBG] Response markup is scheduled to include browser refresh script injection.
+2025-08-20 15:15:50.259 +05:30 [DBG] Response markup was updated to include Browser Link script injection.
+2025-08-20 15:15:50.289 +05:30 [DBG] Response markup was updated to include browser refresh script injection.
+2025-08-20 15:15:50.301 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7248/_vs/browserLink - null null
+2025-08-20 15:15:50.301 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7248/_framework/aspnetcore-browser-refresh.js - null null
+2025-08-20 15:15:50.323 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7248/swagger/index.html - 200 null text/html;charset=utf-8 831.3232ms
+2025-08-20 15:15:50.338 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7248/_framework/aspnetcore-browser-refresh.js - 200 13752 application/javascript; charset=utf-8 37.1033ms
+2025-08-20 15:15:50.399 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7248/_vs/browserLink - 200 null text/javascript; charset=UTF-8 98.059ms
+2025-08-20 15:15:50.526 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7248/swagger/v1/swagger.json - null null
+2025-08-20 15:15:50.535 +05:30 [DBG] No candidates found for the request path '/swagger/v1/swagger.json'
+2025-08-20 15:15:50.536 +05:30 [DBG] Request did not match any endpoints
+2025-08-20 15:15:50.760 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7248/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 233.6679ms
+2025-08-20 15:15:53.943 +05:30 [DBG] Connection id "0HNEVPPBNPEDC" received FIN.
+2025-08-20 15:15:53.959 +05:30 [DBG] The connection queue processing loop for 0HNEVPPBNPEDC completed.
+2025-08-20 15:15:53.960 +05:30 [DBG] Connection id "0HNEVPPBNPEDC" is closed. The last processed stream ID was 7.
+2025-08-20 15:15:53.966 +05:30 [DBG] Connection id "0HNEVPPBNPEDC" sending FIN because: "The Socket transport's send loop completed gracefully."
+2025-08-20 15:15:53.971 +05:30 [DBG] Connection id "0HNEVPPBNPEDC" stopped.
+2025-08-20 15:15:56.155 +05:30 [DBG] Connection id "0HNEVPPBNPEDD" accepted.
+2025-08-20 15:15:56.166 +05:30 [DBG] Connection id "0HNEVPPBNPEDD" started.
+2025-08-20 15:15:56.175 +05:30 [DBG] Connection 0HNEVPPBNPEDD established using the following protocol: "Tls13"
+2025-08-20 15:15:56.180 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7248/api/Recipes - null null
+2025-08-20 15:15:56.186 +05:30 [DBG] 1 candidate(s) found for the request path '/api/Recipes'
+2025-08-20 15:15:56.206 +05:30 [DBG] Endpoint 'Test_api.Controllers.RecipesController.GetAllUsers (Test_api)' with route pattern 'api/Recipes' is valid for the request path '/api/Recipes'
+2025-08-20 15:15:56.221 +05:30 [DBG] Request matched endpoint 'Test_api.Controllers.RecipesController.GetAllUsers (Test_api)'
+2025-08-20 15:15:56.226 +05:30 [DBG] Static files was skipped as the request already matched an endpoint.
+2025-08-20 15:15:56.234 +05:30 [INF] Executing endpoint 'Test_api.Controllers.RecipesController.GetAllUsers (Test_api)'
+2025-08-20 15:15:56.498 +05:30 [INF] Route matched with {action = "GetAllUsers", controller = "Recipes"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAllUsers(Recipe.Model.CommonModel.SearchRequestModel) on controller Test_api.Controllers.RecipesController (Test_api).
+2025-08-20 15:15:56.528 +05:30 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2025-08-20 15:15:56.535 +05:30 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2025-08-20 15:15:56.537 +05:30 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2025-08-20 15:15:56.539 +05:30 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2025-08-20 15:15:56.540 +05:30 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2025-08-20 15:15:56.553 +05:30 [DBG] Executing controller factory for controller Test_api.Controllers.RecipesController (Test_api)
+2025-08-20 15:15:56.932 +05:30 [DBG] An 'IServiceProvider' was created for internal use by Entity Framework.
+2025-08-20 15:15:56.967 +05:30 [DBG] Executed controller factory for controller Test_api.Controllers.RecipesController (Test_api)
+2025-08-20 15:15:56.990 +05:30 [DBG] Attempting to bind parameter 'model' of type 'Recipe.Model.CommonModel.SearchRequestModel' ...
+2025-08-20 15:15:56.996 +05:30 [DBG] Attempting to bind parameter 'model' of type 'Recipe.Model.CommonModel.SearchRequestModel' using the name '' in request data ...
+2025-08-20 15:15:57.015 +05:30 [DBG] Attempting to bind property 'Recipe.Model.CommonModel.SearchRequestModel.SearchText' of type 'System.String' using the name 'SearchText' in request data ...
+2025-08-20 15:15:57.016 +05:30 [DBG] Could not find a value in the request with name 'SearchText' for binding property 'Recipe.Model.CommonModel.SearchRequestModel.SearchText' of type 'System.String'.
+2025-08-20 15:15:57.018 +05:30 [DBG] Done attempting to bind property 'Recipe.Model.CommonModel.SearchRequestModel.SearchText' of type 'System.String'.
+2025-08-20 15:15:57.020 +05:30 [DBG] Attempting to bind property 'Recipe.Model.CommonModel.SearchRequestModel.Page' of type 'System.Int32' using the name 'Page' in request data ...
+2025-08-20 15:15:57.021 +05:30 [DBG] Could not find a value in the request with name 'Page' for binding property 'Recipe.Model.CommonModel.SearchRequestModel.Page' of type 'System.Int32'.
+2025-08-20 15:15:57.022 +05:30 [DBG] Done attempting to bind property 'Recipe.Model.CommonModel.SearchRequestModel.Page' of type 'System.Int32'.
+2025-08-20 15:15:57.022 +05:30 [DBG] Attempting to bind property 'Recipe.Model.CommonModel.SearchRequestModel.PageSize' of type 'System.Int32' using the name 'PageSize' in request data ...
+2025-08-20 15:15:57.024 +05:30 [DBG] Could not find a value in the request with name 'PageSize' for binding property 'Recipe.Model.CommonModel.SearchRequestModel.PageSize' of type 'System.Int32'.
+2025-08-20 15:15:57.025 +05:30 [DBG] Done attempting to bind property 'Recipe.Model.CommonModel.SearchRequestModel.PageSize' of type 'System.Int32'.
+2025-08-20 15:15:57.026 +05:30 [DBG] Attempting to bind property 'Recipe.Model.CommonModel.SearchRequestModel.SortColumn' of type 'System.String' using the name 'SortColumn' in request data ...
+2025-08-20 15:15:57.027 +05:30 [DBG] Could not find a value in the request with name 'SortColumn' for binding property 'Recipe.Model.CommonModel.SearchRequestModel.SortColumn' of type 'System.String'.
+2025-08-20 15:15:57.030 +05:30 [DBG] Done attempting to bind property 'Recipe.Model.CommonModel.SearchRequestModel.SortColumn' of type 'System.String'.
+2025-08-20 15:15:57.031 +05:30 [DBG] Attempting to bind property 'Recipe.Model.CommonModel.SearchRequestModel.SortOrder' of type 'System.String' using the name 'SortOrder' in request data ...
+2025-08-20 15:15:57.032 +05:30 [DBG] Could not find a value in the request with name 'SortOrder' for binding property 'Recipe.Model.CommonModel.SearchRequestModel.SortOrder' of type 'System.String'.
+2025-08-20 15:15:57.033 +05:30 [DBG] Done attempting to bind property 'Recipe.Model.CommonModel.SearchRequestModel.SortOrder' of type 'System.String'.
+2025-08-20 15:15:57.034 +05:30 [DBG] Attempting to bind property 'Recipe.Model.CommonModel.SearchRequestModel.Filters' of type 'System.String' using the name 'Filters' in request data ...
+2025-08-20 15:15:57.035 +05:30 [DBG] Could not find a value in the request with name 'Filters' for binding property 'Recipe.Model.CommonModel.SearchRequestModel.Filters' of type 'System.String'.
+2025-08-20 15:15:57.035 +05:30 [DBG] Done attempting to bind property 'Recipe.Model.CommonModel.SearchRequestModel.Filters' of type 'System.String'.
+2025-08-20 15:15:57.037 +05:30 [DBG] Done attempting to bind parameter 'model' of type 'Recipe.Model.CommonModel.SearchRequestModel'.
+2025-08-20 15:15:57.038 +05:30 [DBG] Done attempting to bind parameter 'model' of type 'Recipe.Model.CommonModel.SearchRequestModel'.
+2025-08-20 15:15:57.038 +05:30 [DBG] Attempting to validate the bound parameter 'model' of type 'Recipe.Model.CommonModel.SearchRequestModel' ...
+2025-08-20 15:15:57.051 +05:30 [DBG] Done attempting to validate the bound parameter 'model' of type 'Recipe.Model.CommonModel.SearchRequestModel'.
+2025-08-20 15:15:57.086 +05:30 [INF] Fetching recipes with parameters: {"SearchText":null,"Page":1,"PageSize":10,"SortColumn":null,"SortOrder":null,"Filters":null,"$type":"SearchRequestModel"}
+2025-08-20 15:15:57.621 +05:30 [DBG] Entity Framework Core 9.0.8 initialized 'RecipeSpContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:9.0.8' with options: EngineType=SqlServer 
+2025-08-20 15:15:57.891 +05:30 [DBG] Compiling query expression: 
+'DbSet<ExecutreStoreProcedureResultList>().FromSql([dbo].[sp_get_all_recipes] {0}, __p_0)
+'
+2025-08-20 15:15:58.282 +05:30 [DBG] Generated query execution expression: 
+'queryContext => FromSqlQueryingEnumerable.Create<ExecutreStoreProcedureResultList>(
+    relationalQueryContext: (RelationalQueryContext)queryContext, 
+    relationalCommandResolver: parameters => [LIFTABLE Constant: RelationalCommandCache.QueryExpression(
+        Projection Mapping:
+            EmptyProjectionMember -> Dictionary<IProperty, int> { [Property: ExecutreStoreProcedureResultList.ErrorMessage (string), 0], [Property: ExecutreStoreProcedureResultList.Result (string), 1], [Property: ExecutreStoreProcedureResultList.TotalCount (int?), 2] }
+        SELECT u.ErrorMessage, u.Result, u.TotalCount
+        FROM [dbo].[sp_get_all_recipes] {0}) | Resolver: c => new RelationalCommandCache(
+        c.Dependencies.MemoryCache, 
+        c.RelationalDependencies.QuerySqlGeneratorFactory, 
+        c.RelationalDependencies.RelationalParameterBasedSqlProcessorFactory, 
+        Projection Mapping:
+            EmptyProjectionMember -> Dictionary<IProperty, int> { [Property: ExecutreStoreProcedureResultList.ErrorMessage (string), 0], [Property: ExecutreStoreProcedureResultList.Result (string), 1], [Property: ExecutreStoreProcedureResultList.TotalCount (int?), 2] }
+        SELECT u.ErrorMessage, u.Result, u.TotalCount
+        FROM [dbo].[sp_get_all_recipes] {0}, 
+        False, 
+        new HashSet<string>(
+            new string[]{ }, 
+            StringComparer.Ordinal
+        )
+    )].GetRelationalCommandTemplate(parameters), 
+    readerColumns: null, 
+    columnNames: [LIFTABLE Constant: string[] { "ErrorMessage", "Result", "TotalCount" } | Resolver: _ => new string[]
+    { 
+        "ErrorMessage", 
+        "Result", 
+        "TotalCount" 
+    }], 
+    shaper: (queryContext, dataReader, indexMap) => 
+    {
+        ExecutreStoreProcedureResultList entity;
+        entity = 
+        {
+            MaterializationContext materializationContext1;
+            IEntityType entityType1;
+            ExecutreStoreProcedureResultList instance1;
+            materializationContext1 = new MaterializationContext(
+                [LIFTABLE Constant: ValueBuffer | Resolver: _ => (object)ValueBuffer.Empty], 
+                queryContext.Context
+            );
+            instance1 = default(ExecutreStoreProcedureResultList);
+            {
+                ISnapshot shadowSnapshot1;
+                shadowSnapshot1 = [LIFTABLE Constant: Snapshot | Resolver: _ => Snapshot.Empty];
+                entityType1 = [LIFTABLE Constant: EntityType: ExecutreStoreProcedureResultList Keyless | Resolver: namelessParameter{0} => namelessParameter{0}.Dependencies.Model.FindEntityType("User.Model.SpDbContext.ExecutreStoreProcedureResultList")];
+                instance1 = switch (entityType1)
+                {
+                    case [LIFTABLE Constant: EntityType: ExecutreStoreProcedureResultList Keyless | Resolver: namelessParameter{1} => namelessParameter{1}.Dependencies.Model.FindEntityType("User.Model.SpDbContext.ExecutreStoreProcedureResultList")]: 
+                        {
+                            return 
+                            {
+                                ExecutreStoreProcedureResultList instance;
+                                instance = new ExecutreStoreProcedureResultList();
+                                instance.<ErrorMessage>k__BackingField = dataReader.IsDBNull(indexMap[0]) ? default(string) : dataReader.GetString(indexMap[0]);
+                                instance.<Result>k__BackingField = dataReader.IsDBNull(indexMap[1]) ? default(string) : dataReader.GetString(indexMap[1]);
+                                instance.<TotalCount>k__BackingField = dataReader.IsDBNull(indexMap[2]) ? default(int?) : (int?)dataReader.GetInt32(indexMap[2]);
+                                (instance is IInjectableService) ? ((IInjectableService)instance).Injected(
+                                    context: materializationContext1.Context, 
+                                    entity: instance, 
+                                    queryTrackingBehavior: TrackAll, 
+                                    structuralType: [LIFTABLE Constant: EntityType: ExecutreStoreProcedureResultList Keyless | Resolver: namelessParameter{2} => namelessParameter{2}.Dependencies.Model.FindEntityType("User.Model.SpDbContext.ExecutreStoreProcedureResultList")]) : default(void);
+                                return instance;
+                            }}
+                    default: 
+                        default(ExecutreStoreProcedureResultList)
+                }
+                ;
+                return instance1;
+            }return instance1;
+        };
+        return entity;
+    }, 
+    contextType: Recipe.Model.RecipeSPContext.RecipeSpContext, 
+    standAloneStateManager: False, 
+    detailedErrorsEnabled: False, 
+    threadSafetyChecksEnabled: True)'
+2025-08-20 15:15:58.330 +05:30 [DBG] Creating DbConnection.
+2025-08-20 15:15:58.363 +05:30 [DBG] Created DbConnection. (32ms).
+2025-08-20 15:15:58.368 +05:30 [DBG] Opening connection to database 'Recipe_Management_System' on server 'ADMIN\SQLEXPRESS01'.
+2025-08-20 15:16:04.498 +05:30 [DBG] Opened connection to database 'Recipe_Management_System' on server 'ADMIN\SQLEXPRESS01'.
+2025-08-20 15:16:04.506 +05:30 [DBG] Creating DbCommand for 'ExecuteReader'.
+2025-08-20 15:16:04.519 +05:30 [DBG] Created DbCommand for 'ExecuteReader' (13ms).
+2025-08-20 15:16:04.537 +05:30 [DBG] Initialized DbCommand for 'ExecuteReader' (32ms).
+2025-08-20 15:16:04.553 +05:30 [DBG] Executing DbCommand [Parameters=[p0='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+[dbo].[sp_get_all_recipes] @p0
+2025-08-20 15:16:05.788 +05:30 [INF] Executed DbCommand (1,238ms) [Parameters=[p0='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+[dbo].[sp_get_all_recipes] @p0
+2025-08-20 15:16:05.819 +05:30 [DBG] Closing data reader to 'Recipe_Management_System' on server 'ADMIN\SQLEXPRESS01'.
+2025-08-20 15:16:05.829 +05:30 [DBG] A data reader for 'Recipe_Management_System' on server 'ADMIN\SQLEXPRESS01' is being disposed after spending 32ms reading results.
+2025-08-20 15:16:05.834 +05:30 [DBG] Closing connection to database 'Recipe_Management_System' on server 'ADMIN\SQLEXPRESS01'.
+2025-08-20 15:16:05.840 +05:30 [DBG] Closed connection to database 'Recipe_Management_System' on server 'ADMIN\SQLEXPRESS01' (5ms).
+2025-08-20 15:16:05.978 +05:30 [INF] Fetched 10 recipes
+2025-08-20 15:16:05.993 +05:30 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter"]
+2025-08-20 15:16:05.999 +05:30 [DBG] No information found on request to perform content negotiation.
+2025-08-20 15:16:06.000 +05:30 [DBG] Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+2025-08-20 15:16:06.000 +05:30 [DBG] Attempting to select the first formatter in the output formatters list which can write the result.
+2025-08-20 15:16:06.002 +05:30 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter' and content type 'application/json' to write the response.
+2025-08-20 15:16:06.003 +05:30 [INF] Executing OkObjectResult, writing value of type 'Recipe.Model.CommonModel.Page'.
+2025-08-20 15:16:06.026 +05:30 [INF] Executed action Test_api.Controllers.RecipesController.GetAllUsers (Test_api) in 9474.0362ms
+2025-08-20 15:16:06.031 +05:30 [INF] Executed endpoint 'Test_api.Controllers.RecipesController.GetAllUsers (Test_api)'
+2025-08-20 15:16:06.053 +05:30 [DBG] 'RecipeSpContext' disposed.
+2025-08-20 15:16:06.057 +05:30 [DBG] Disposing connection to database 'Recipe_Management_System' on server 'ADMIN\SQLEXPRESS01'.
+2025-08-20 15:16:06.059 +05:30 [DBG] Disposed connection to database '' on server '' (1ms).
+2025-08-20 15:16:06.060 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7248/api/Recipes - 200 null application/json; charset=utf-8 9880.2761ms
+2025-08-20 15:16:13.969 +05:30 [DBG] Connection id "0HNEVPPBNPEDD" received FIN.
+2025-08-20 15:16:13.971 +05:30 [DBG] Connection id "0HNEVPPBNPEDD" is closed. The last processed stream ID was 1.
+2025-08-20 15:16:13.971 +05:30 [DBG] The connection queue processing loop for 0HNEVPPBNPEDD completed.
+2025-08-20 15:16:13.973 +05:30 [DBG] Connection id "0HNEVPPBNPEDD" sending FIN because: "The Socket transport's send loop completed gracefully."
+2025-08-20 15:16:13.985 +05:30 [DBG] Connection id "0HNEVPPBNPEDD" stopped.
+2025-08-20 15:17:24.080 +05:30 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2025-08-20 15:17:24.230 +05:30 [DBG] Hosting starting
+2025-08-20 15:17:24.542 +05:30 [INF] Now listening on: https://localhost:7248
+2025-08-20 15:17:24.543 +05:30 [INF] Now listening on: http://localhost:5123
+2025-08-20 15:17:24.544 +05:30 [DBG] Loaded hosting startup assembly Test_api
+2025-08-20 15:17:24.544 +05:30 [DBG] Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2025-08-20 15:17:24.545 +05:30 [DBG] Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2025-08-20 15:17:24.546 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2025-08-20 15:17:24.546 +05:30 [INF] Hosting environment: Development
+2025-08-20 15:17:24.547 +05:30 [INF] Content root path: E:\Prioxis\Evaluation\Test_api
+2025-08-20 15:17:24.547 +05:30 [DBG] Hosting started
+2025-08-20 15:17:24.633 +05:30 [DBG] Connection id "0HNEVPQ8GPS6V" accepted.
+2025-08-20 15:17:24.633 +05:30 [DBG] Connection id "0HNEVPQ8GPS6U" accepted.
+2025-08-20 15:17:24.640 +05:30 [DBG] Connection id "0HNEVPQ8GPS6V" started.
+2025-08-20 15:17:24.640 +05:30 [DBG] Connection id "0HNEVPQ8GPS6U" started.
+2025-08-20 15:17:24.642 +05:30 [DBG] Connection id "0HNEVPQ8GPS6U" received FIN.
+2025-08-20 15:17:24.642 +05:30 [DBG] Connection id "0HNEVPQ8GPS6V" received FIN.
+2025-08-20 15:17:24.752 +05:30 [DBG] Failed to authenticate HTTPS connection.
+System.IO.IOException: Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.ReceiveHandshakeFrameAsync[TIOAdapter](CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](Boolean receiveFirst, Byte[] reAuthenticationData, CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.ProcessAuthenticationWithTelemetryAsync(Boolean isAsync, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2025-08-20 15:17:24.752 +05:30 [DBG] Failed to authenticate HTTPS connection.
+System.IO.IOException: Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.ReceiveHandshakeFrameAsync[TIOAdapter](CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](Boolean receiveFirst, Byte[] reAuthenticationData, CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.ProcessAuthenticationWithTelemetryAsync(Boolean isAsync, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2025-08-20 15:17:24.971 +05:30 [DBG] Connection id "0HNEVPQ8GPS6V" stopped.
+2025-08-20 15:17:24.971 +05:30 [DBG] Connection id "0HNEVPQ8GPS6U" stopped.
+2025-08-20 15:17:24.985 +05:30 [DBG] Connection id "0HNEVPQ8GPS6U" sending FIN because: "The Socket transport's send loop completed gracefully."
+2025-08-20 15:17:24.985 +05:30 [DBG] Connection id "0HNEVPQ8GPS6V" sending FIN because: "The Socket transport's send loop completed gracefully."
+2025-08-20 15:17:26.657 +05:30 [DBG] Connection id "0HNEVPQ8GPS70" accepted.
+2025-08-20 15:17:26.661 +05:30 [DBG] Connection id "0HNEVPQ8GPS70" started.
+2025-08-20 15:17:27.001 +05:30 [DBG] Connection 0HNEVPQ8GPS70 established using the following protocol: "Tls13"
+2025-08-20 15:17:27.190 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7248/swagger/index.html - null null
+2025-08-20 15:17:27.668 +05:30 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2025-08-20 15:17:27.729 +05:30 [DBG] No candidates found for the request path '/swagger/index.html'
+2025-08-20 15:17:27.735 +05:30 [DBG] Request did not match any endpoints
+2025-08-20 15:17:27.943 +05:30 [DBG] Response markup is scheduled to include Browser Link script injection.
+2025-08-20 15:17:27.954 +05:30 [DBG] Response markup is scheduled to include browser refresh script injection.
+2025-08-20 15:17:28.032 +05:30 [DBG] Response markup was updated to include Browser Link script injection.
+2025-08-20 15:17:28.043 +05:30 [DBG] Response markup was updated to include browser refresh script injection.
+2025-08-20 15:17:28.051 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7248/swagger/index.html - 200 null text/html;charset=utf-8 885.8254ms
+2025-08-20 15:17:28.173 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7248/_framework/aspnetcore-browser-refresh.js - null null
+2025-08-20 15:17:28.175 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7248/_vs/browserLink - null null
+2025-08-20 15:17:28.208 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7248/_framework/aspnetcore-browser-refresh.js - 200 13752 application/javascript; charset=utf-8 34.8552ms
+2025-08-20 15:17:28.348 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7248/_vs/browserLink - 200 null text/javascript; charset=UTF-8 172.76ms
+2025-08-20 15:17:28.423 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7248/swagger/v1/swagger.json - null null
+2025-08-20 15:17:28.436 +05:30 [DBG] No candidates found for the request path '/swagger/v1/swagger.json'
+2025-08-20 15:17:28.437 +05:30 [DBG] Request did not match any endpoints
+2025-08-20 15:17:28.911 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7248/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 487.7188ms
+2025-08-20 15:17:34.087 +05:30 [DBG] Connection id "0HNEVPQ8GPS70" received FIN.
+2025-08-20 15:17:34.093 +05:30 [DBG] The connection queue processing loop for 0HNEVPQ8GPS70 completed.
+2025-08-20 15:17:34.094 +05:30 [DBG] Connection id "0HNEVPQ8GPS70" is closed. The last processed stream ID was 7.
+2025-08-20 15:17:34.095 +05:30 [DBG] Connection id "0HNEVPQ8GPS70" sending FIN because: "The Socket transport's send loop completed gracefully."
+2025-08-20 15:17:34.098 +05:30 [DBG] Connection id "0HNEVPQ8GPS70" stopped.
+2025-08-20 15:17:35.698 +05:30 [DBG] Connection id "0HNEVPQ8GPS71" accepted.
+2025-08-20 15:17:35.712 +05:30 [DBG] Connection id "0HNEVPQ8GPS71" started.
+2025-08-20 15:17:35.726 +05:30 [DBG] Connection 0HNEVPQ8GPS71 established using the following protocol: "Tls13"
+2025-08-20 15:17:35.728 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7248/api/Recipes - null null
+2025-08-20 15:17:35.740 +05:30 [DBG] 1 candidate(s) found for the request path '/api/Recipes'
+2025-08-20 15:17:35.743 +05:30 [DBG] Endpoint 'Test_api.Controllers.RecipesController.GetAllUsers (Test_api)' with route pattern 'api/Recipes' is valid for the request path '/api/Recipes'
+2025-08-20 15:17:35.745 +05:30 [DBG] Request matched endpoint 'Test_api.Controllers.RecipesController.GetAllUsers (Test_api)'
+2025-08-20 15:17:35.753 +05:30 [DBG] Static files was skipped as the request already matched an endpoint.
+2025-08-20 15:17:35.757 +05:30 [INF] Executing endpoint 'Test_api.Controllers.RecipesController.GetAllUsers (Test_api)'
+2025-08-20 15:17:35.803 +05:30 [INF] Route matched with {action = "GetAllUsers", controller = "Recipes"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAllUsers(Recipe.Model.CommonModel.SearchRequestModel) on controller Test_api.Controllers.RecipesController (Test_api).
+2025-08-20 15:17:35.807 +05:30 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2025-08-20 15:17:35.808 +05:30 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2025-08-20 15:17:35.809 +05:30 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2025-08-20 15:17:35.810 +05:30 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2025-08-20 15:17:35.811 +05:30 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2025-08-20 15:17:35.815 +05:30 [DBG] Executing controller factory for controller Test_api.Controllers.RecipesController (Test_api)
+2025-08-20 15:17:36.565 +05:30 [DBG] An 'IServiceProvider' was created for internal use by Entity Framework.
+2025-08-20 15:17:36.636 +05:30 [DBG] Executed controller factory for controller Test_api.Controllers.RecipesController (Test_api)
+2025-08-20 15:17:36.659 +05:30 [DBG] Attempting to bind parameter 'model' of type 'Recipe.Model.CommonModel.SearchRequestModel' ...
+2025-08-20 15:17:36.661 +05:30 [DBG] Attempting to bind parameter 'model' of type 'Recipe.Model.CommonModel.SearchRequestModel' using the name '' in request data ...
+2025-08-20 15:17:36.668 +05:30 [DBG] Attempting to bind property 'Recipe.Model.CommonModel.SearchRequestModel.SearchText' of type 'System.String' using the name 'SearchText' in request data ...
+2025-08-20 15:17:36.671 +05:30 [DBG] Could not find a value in the request with name 'SearchText' for binding property 'Recipe.Model.CommonModel.SearchRequestModel.SearchText' of type 'System.String'.
+2025-08-20 15:17:36.672 +05:30 [DBG] Done attempting to bind property 'Recipe.Model.CommonModel.SearchRequestModel.SearchText' of type 'System.String'.
+2025-08-20 15:17:36.674 +05:30 [DBG] Attempting to bind property 'Recipe.Model.CommonModel.SearchRequestModel.Page' of type 'System.Int32' using the name 'Page' in request data ...
+2025-08-20 15:17:36.675 +05:30 [DBG] Could not find a value in the request with name 'Page' for binding property 'Recipe.Model.CommonModel.SearchRequestModel.Page' of type 'System.Int32'.
+2025-08-20 15:17:36.676 +05:30 [DBG] Done attempting to bind property 'Recipe.Model.CommonModel.SearchRequestModel.Page' of type 'System.Int32'.
+2025-08-20 15:17:36.677 +05:30 [DBG] Attempting to bind property 'Recipe.Model.CommonModel.SearchRequestModel.PageSize' of type 'System.Int32' using the name 'PageSize' in request data ...
+2025-08-20 15:17:36.678 +05:30 [DBG] Could not find a value in the request with name 'PageSize' for binding property 'Recipe.Model.CommonModel.SearchRequestModel.PageSize' of type 'System.Int32'.
+2025-08-20 15:17:36.678 +05:30 [DBG] Done attempting to bind property 'Recipe.Model.CommonModel.SearchRequestModel.PageSize' of type 'System.Int32'.
+2025-08-20 15:17:36.679 +05:30 [DBG] Attempting to bind property 'Recipe.Model.CommonModel.SearchRequestModel.SortColumn' of type 'System.String' using the name 'SortColumn' in request data ...
+2025-08-20 15:17:36.680 +05:30 [DBG] Could not find a value in the request with name 'SortColumn' for binding property 'Recipe.Model.CommonModel.SearchRequestModel.SortColumn' of type 'System.String'.
+2025-08-20 15:17:36.681 +05:30 [DBG] Done attempting to bind property 'Recipe.Model.CommonModel.SearchRequestModel.SortColumn' of type 'System.String'.
+2025-08-20 15:17:36.681 +05:30 [DBG] Attempting to bind property 'Recipe.Model.CommonModel.SearchRequestModel.SortOrder' of type 'System.String' using the name 'SortOrder' in request data ...
+2025-08-20 15:17:36.682 +05:30 [DBG] Could not find a value in the request with name 'SortOrder' for binding property 'Recipe.Model.CommonModel.SearchRequestModel.SortOrder' of type 'System.String'.
+2025-08-20 15:17:36.686 +05:30 [DBG] Done attempting to bind property 'Recipe.Model.CommonModel.SearchRequestModel.SortOrder' of type 'System.String'.
+2025-08-20 15:17:36.687 +05:30 [DBG] Attempting to bind property 'Recipe.Model.CommonModel.SearchRequestModel.Filters' of type 'System.String' using the name 'Filters' in request data ...
+2025-08-20 15:17:36.688 +05:30 [DBG] Could not find a value in the request with name 'Filters' for binding property 'Recipe.Model.CommonModel.SearchRequestModel.Filters' of type 'System.String'.
+2025-08-20 15:17:36.689 +05:30 [DBG] Done attempting to bind property 'Recipe.Model.CommonModel.SearchRequestModel.Filters' of type 'System.String'.
+2025-08-20 15:17:36.690 +05:30 [DBG] Done attempting to bind parameter 'model' of type 'Recipe.Model.CommonModel.SearchRequestModel'.
+2025-08-20 15:17:36.691 +05:30 [DBG] Done attempting to bind parameter 'model' of type 'Recipe.Model.CommonModel.SearchRequestModel'.
+2025-08-20 15:17:36.691 +05:30 [DBG] Attempting to validate the bound parameter 'model' of type 'Recipe.Model.CommonModel.SearchRequestModel' ...
+2025-08-20 15:17:36.697 +05:30 [DBG] Done attempting to validate the bound parameter 'model' of type 'Recipe.Model.CommonModel.SearchRequestModel'.
+2025-08-20 15:17:36.737 +05:30 [INF] Fetching recipes with parameters: {"SearchText":null,"Page":1,"PageSize":10,"SortColumn":null,"SortOrder":null,"Filters":null,"$type":"SearchRequestModel"}
+2025-08-20 15:17:37.290 +05:30 [DBG] Entity Framework Core 9.0.8 initialized 'RecipeSpContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:9.0.8' with options: EngineType=SqlServer 
+2025-08-20 15:17:37.376 +05:30 [DBG] Compiling query expression: 
+'DbSet<ExecutreStoreProcedureResultList>().FromSql([dbo].[sp_get_all_recipes] {0}, __p_0)
+'
+2025-08-20 15:17:37.672 +05:30 [DBG] Generated query execution expression: 
+'queryContext => FromSqlQueryingEnumerable.Create<ExecutreStoreProcedureResultList>(
+    relationalQueryContext: (RelationalQueryContext)queryContext, 
+    relationalCommandResolver: parameters => [LIFTABLE Constant: RelationalCommandCache.QueryExpression(
+        Projection Mapping:
+            EmptyProjectionMember -> Dictionary<IProperty, int> { [Property: ExecutreStoreProcedureResultList.ErrorMessage (string), 0], [Property: ExecutreStoreProcedureResultList.Result (string), 1], [Property: ExecutreStoreProcedureResultList.TotalCount (int?), 2] }
+        SELECT u.ErrorMessage, u.Result, u.TotalCount
+        FROM [dbo].[sp_get_all_recipes] {0}) | Resolver: c => new RelationalCommandCache(
+        c.Dependencies.MemoryCache, 
+        c.RelationalDependencies.QuerySqlGeneratorFactory, 
+        c.RelationalDependencies.RelationalParameterBasedSqlProcessorFactory, 
+        Projection Mapping:
+            EmptyProjectionMember -> Dictionary<IProperty, int> { [Property: ExecutreStoreProcedureResultList.ErrorMessage (string), 0], [Property: ExecutreStoreProcedureResultList.Result (string), 1], [Property: ExecutreStoreProcedureResultList.TotalCount (int?), 2] }
+        SELECT u.ErrorMessage, u.Result, u.TotalCount
+        FROM [dbo].[sp_get_all_recipes] {0}, 
+        False, 
+        new HashSet<string>(
+            new string[]{ }, 
+            StringComparer.Ordinal
+        )
+    )].GetRelationalCommandTemplate(parameters), 
+    readerColumns: null, 
+    columnNames: [LIFTABLE Constant: string[] { "ErrorMessage", "Result", "TotalCount" } | Resolver: _ => new string[]
+    { 
+        "ErrorMessage", 
+        "Result", 
+        "TotalCount" 
+    }], 
+    shaper: (queryContext, dataReader, indexMap) => 
+    {
+        ExecutreStoreProcedureResultList entity;
+        entity = 
+        {
+            MaterializationContext materializationContext1;
+            IEntityType entityType1;
+            ExecutreStoreProcedureResultList instance1;
+            materializationContext1 = new MaterializationContext(
+                [LIFTABLE Constant: ValueBuffer | Resolver: _ => (object)ValueBuffer.Empty], 
+                queryContext.Context
+            );
+            instance1 = default(ExecutreStoreProcedureResultList);
+            {
+                ISnapshot shadowSnapshot1;
+                shadowSnapshot1 = [LIFTABLE Constant: Snapshot | Resolver: _ => Snapshot.Empty];
+                entityType1 = [LIFTABLE Constant: EntityType: ExecutreStoreProcedureResultList Keyless | Resolver: namelessParameter{0} => namelessParameter{0}.Dependencies.Model.FindEntityType("User.Model.SpDbContext.ExecutreStoreProcedureResultList")];
+                instance1 = switch (entityType1)
+                {
+                    case [LIFTABLE Constant: EntityType: ExecutreStoreProcedureResultList Keyless | Resolver: namelessParameter{1} => namelessParameter{1}.Dependencies.Model.FindEntityType("User.Model.SpDbContext.ExecutreStoreProcedureResultList")]: 
+                        {
+                            return 
+                            {
+                                ExecutreStoreProcedureResultList instance;
+                                instance = new ExecutreStoreProcedureResultList();
+                                instance.<ErrorMessage>k__BackingField = dataReader.IsDBNull(indexMap[0]) ? default(string) : dataReader.GetString(indexMap[0]);
+                                instance.<Result>k__BackingField = dataReader.IsDBNull(indexMap[1]) ? default(string) : dataReader.GetString(indexMap[1]);
+                                instance.<TotalCount>k__BackingField = dataReader.IsDBNull(indexMap[2]) ? default(int?) : (int?)dataReader.GetInt32(indexMap[2]);
+                                (instance is IInjectableService) ? ((IInjectableService)instance).Injected(
+                                    context: materializationContext1.Context, 
+                                    entity: instance, 
+                                    queryTrackingBehavior: TrackAll, 
+                                    structuralType: [LIFTABLE Constant: EntityType: ExecutreStoreProcedureResultList Keyless | Resolver: namelessParameter{2} => namelessParameter{2}.Dependencies.Model.FindEntityType("User.Model.SpDbContext.ExecutreStoreProcedureResultList")]) : default(void);
+                                return instance;
+                            }}
+                    default: 
+                        default(ExecutreStoreProcedureResultList)
+                }
+                ;
+                return instance1;
+            }return instance1;
+        };
+        return entity;
+    }, 
+    contextType: Recipe.Model.RecipeSPContext.RecipeSpContext, 
+    standAloneStateManager: False, 
+    detailedErrorsEnabled: False, 
+    threadSafetyChecksEnabled: True)'
+2025-08-20 15:17:37.724 +05:30 [DBG] Creating DbConnection.
+2025-08-20 15:17:37.755 +05:30 [DBG] Created DbConnection. (27ms).
+2025-08-20 15:17:37.759 +05:30 [DBG] Opening connection to database 'Recipe_Management_System' on server 'ADMIN\SQLEXPRESS01'.
+2025-08-20 15:17:38.447 +05:30 [DBG] Opened connection to database 'Recipe_Management_System' on server 'ADMIN\SQLEXPRESS01'.
+2025-08-20 15:17:38.455 +05:30 [DBG] Creating DbCommand for 'ExecuteReader'.
+2025-08-20 15:17:38.460 +05:30 [DBG] Created DbCommand for 'ExecuteReader' (4ms).
+2025-08-20 15:17:38.471 +05:30 [DBG] Initialized DbCommand for 'ExecuteReader' (16ms).
+2025-08-20 15:17:38.481 +05:30 [DBG] Executing DbCommand [Parameters=[p0='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+[dbo].[sp_get_all_recipes] @p0
+2025-08-20 15:17:38.977 +05:30 [INF] Executed DbCommand (498ms) [Parameters=[p0='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+[dbo].[sp_get_all_recipes] @p0
+2025-08-20 15:17:39.025 +05:30 [DBG] Closing data reader to 'Recipe_Management_System' on server 'ADMIN\SQLEXPRESS01'.
+2025-08-20 15:17:39.036 +05:30 [DBG] A data reader for 'Recipe_Management_System' on server 'ADMIN\SQLEXPRESS01' is being disposed after spending 45ms reading results.
+2025-08-20 15:17:39.041 +05:30 [DBG] Closing connection to database 'Recipe_Management_System' on server 'ADMIN\SQLEXPRESS01'.
+2025-08-20 15:17:39.047 +05:30 [DBG] Closed connection to database 'Recipe_Management_System' on server 'ADMIN\SQLEXPRESS01' (5ms).
+2025-08-20 15:17:39.236 +05:30 [INF] Fetched 10 recipes
+2025-08-20 15:17:39.256 +05:30 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter"]
+2025-08-20 15:17:39.260 +05:30 [DBG] No information found on request to perform content negotiation.
+2025-08-20 15:17:39.261 +05:30 [DBG] Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+2025-08-20 15:17:39.261 +05:30 [DBG] Attempting to select the first formatter in the output formatters list which can write the result.
+2025-08-20 15:17:39.263 +05:30 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter' and content type 'application/json' to write the response.
+2025-08-20 15:17:39.264 +05:30 [INF] Executing OkObjectResult, writing value of type 'Recipe.Model.CommonModel.Page'.
+2025-08-20 15:17:39.314 +05:30 [INF] Executed action Test_api.Controllers.RecipesController.GetAllUsers (Test_api) in 3498.6969ms
+2025-08-20 15:17:39.319 +05:30 [INF] Executed endpoint 'Test_api.Controllers.RecipesController.GetAllUsers (Test_api)'
+2025-08-20 15:17:39.346 +05:30 [DBG] 'RecipeSpContext' disposed.
+2025-08-20 15:17:39.352 +05:30 [DBG] Disposing connection to database 'Recipe_Management_System' on server 'ADMIN\SQLEXPRESS01'.
+2025-08-20 15:17:39.354 +05:30 [DBG] Disposed connection to database '' on server '' (4ms).
+2025-08-20 15:17:39.356 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7248/api/Recipes - 200 null application/json; charset=utf-8 3627.9234ms
+2025-08-20 15:17:44.086 +05:30 [DBG] Connection id "0HNEVPQ8GPS71" received FIN.
+2025-08-20 15:17:44.088 +05:30 [DBG] Connection id "0HNEVPQ8GPS71" is closed. The last processed stream ID was 1.
+2025-08-20 15:17:44.089 +05:30 [DBG] The connection queue processing loop for 0HNEVPQ8GPS71 completed.
+2025-08-20 15:17:44.092 +05:30 [DBG] Connection id "0HNEVPQ8GPS71" sending FIN because: "The Socket transport's send loop completed gracefully."
+2025-08-20 15:17:44.101 +05:30 [DBG] Connection id "0HNEVPQ8GPS71" stopped.

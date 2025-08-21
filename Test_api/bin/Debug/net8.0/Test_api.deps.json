@@ -14,6 +14,7 @@
           "Microsoft.EntityFrameworkCore.AutoHistory": "6.0.0",
           "Microsoft.EntityFrameworkCore.SqlServer": "9.0.8",
           "Microsoft.EntityFrameworkCore.Tools": "9.0.8",
+          "Microsoft.Extensions.Primitives": "9.0.8",
           "Newtonsoft.Json": "13.0.3",
           "Recipe.Common": "1.0.0",
           "Recipe.Model": "1.0.0",

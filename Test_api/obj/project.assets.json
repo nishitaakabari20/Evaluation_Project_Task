@@ -5367,6 +5367,7 @@
       "Microsoft.EntityFrameworkCore.AutoHistory >= 6.0.0",
       "Microsoft.EntityFrameworkCore.SqlServer >= 9.0.8",
       "Microsoft.EntityFrameworkCore.Tools >= 9.0.8",
+      "Microsoft.Extensions.Primitives >= 9.0.8",
       "Newtonsoft.Json >= 13.0.3",
       "Recipe.Common >= 1.0.0",
       "Recipe.Model >= 1.0.0",
@@ -5383,11 +5384,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\Prioxis\\Test_api\\Test_api.csproj",
+      "projectUniqueName": "E:\\Prioxis\\Evaluation\\Test_api\\Test_api.csproj",
       "projectName": "Test_api",
-      "projectPath": "E:\\Prioxis\\Test_api\\Test_api.csproj",
+      "projectPath": "E:\\Prioxis\\Evaluation\\Test_api\\Test_api.csproj",
       "packagesPath": "C:\\Users\\akbar\\.nuget\\packages\\",
-      "outputPath": "E:\\Prioxis\\Test_api\\obj\\",
+      "outputPath": "E:\\Prioxis\\Evaluation\\Test_api\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\akbar\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -5405,14 +5406,14 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "E:\\Prioxis\\Recipe.Common\\Recipe.Common.csproj": {
-              "projectPath": "E:\\Prioxis\\Recipe.Common\\Recipe.Common.csproj"
+            "E:\\Prioxis\\Evaluation\\Recipe.Common\\Recipe.Common.csproj": {
+              "projectPath": "E:\\Prioxis\\Evaluation\\Recipe.Common\\Recipe.Common.csproj"
             },
-            "E:\\Prioxis\\Recipe.Model\\Recipe.Model.csproj": {
-              "projectPath": "E:\\Prioxis\\Recipe.Model\\Recipe.Model.csproj"
+            "E:\\Prioxis\\Evaluation\\Recipe.Model\\Recipe.Model.csproj": {
+              "projectPath": "E:\\Prioxis\\Evaluation\\Recipe.Model\\Recipe.Model.csproj"
             },
-            "E:\\Prioxis\\Recipe.Service\\Recipe.Service.csproj": {
-              "projectPath": "E:\\Prioxis\\Recipe.Service\\Recipe.Service.csproj"
+            "E:\\Prioxis\\Evaluation\\Recipe.Service\\Recipe.Service.csproj": {
+              "projectPath": "E:\\Prioxis\\Evaluation\\Recipe.Service\\Recipe.Service.csproj"
             }
           }
         }
@@ -5455,6 +5456,10 @@
           "Microsoft.EntityFrameworkCore.Tools": {
             "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
             "suppressParent": "All",
+            "target": "Package",
+            "version": "[9.0.8, )"
+          },
+          "Microsoft.Extensions.Primitives": {
             "target": "Package",
             "version": "[9.0.8, )"
           },

@@ -45,7 +45,9 @@ namespace Test_api.Controllers
                     }
 
                     _logger.LogInformation("Fetched {Count} recipes", result.Count);
-                    return Ok(result);
+                    list.Result = result;
+                    return Ok(BindSearchResult(list, model, "Bind"));
+                   // return Ok(result);
                 }   
 
                 _logger.LogWarning("No recipes found with parameters: {@Model}", model);

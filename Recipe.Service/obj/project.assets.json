@@ -3017,11 +3017,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\Prioxis\\Recipe.Service\\Recipe.Service.csproj",
+      "projectUniqueName": "E:\\Prioxis\\Evaluation\\Recipe.Service\\Recipe.Service.csproj",
       "projectName": "Recipe.Service",
-      "projectPath": "E:\\Prioxis\\Recipe.Service\\Recipe.Service.csproj",
+      "projectPath": "E:\\Prioxis\\Evaluation\\Recipe.Service\\Recipe.Service.csproj",
       "packagesPath": "C:\\Users\\akbar\\.nuget\\packages\\",
-      "outputPath": "E:\\Prioxis\\Recipe.Service\\obj\\",
+      "outputPath": "E:\\Prioxis\\Evaluation\\Recipe.Service\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\akbar\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -3039,11 +3039,11 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "E:\\Prioxis\\Recipe.Common\\Recipe.Common.csproj": {
-              "projectPath": "E:\\Prioxis\\Recipe.Common\\Recipe.Common.csproj"
+            "E:\\Prioxis\\Evaluation\\Recipe.Common\\Recipe.Common.csproj": {
+              "projectPath": "E:\\Prioxis\\Evaluation\\Recipe.Common\\Recipe.Common.csproj"
             },
-            "E:\\Prioxis\\Recipe.Model\\Recipe.Model.csproj": {
-              "projectPath": "E:\\Prioxis\\Recipe.Model\\Recipe.Model.csproj"
+            "E:\\Prioxis\\Evaluation\\Recipe.Model\\Recipe.Model.csproj": {
+              "projectPath": "E:\\Prioxis\\Evaluation\\Recipe.Model\\Recipe.Model.csproj"
             }
           }
         }

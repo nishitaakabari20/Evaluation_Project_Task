@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "E:\\Prioxis\\Recipe.Common\\Recipe.Common.csproj": {}
+    "E:\\Prioxis\\Evaluation\\Recipe.Common\\Recipe.Common.csproj": {}
   },
   "projects": {
-    "E:\\Prioxis\\Recipe.Common\\Recipe.Common.csproj": {
+    "E:\\Prioxis\\Evaluation\\Recipe.Common\\Recipe.Common.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\Prioxis\\Recipe.Common\\Recipe.Common.csproj",
+        "projectUniqueName": "E:\\Prioxis\\Evaluation\\Recipe.Common\\Recipe.Common.csproj",
         "projectName": "Recipe.Common",
-        "projectPath": "E:\\Prioxis\\Recipe.Common\\Recipe.Common.csproj",
+        "projectPath": "E:\\Prioxis\\Evaluation\\Recipe.Common\\Recipe.Common.csproj",
         "packagesPath": "C:\\Users\\akbar\\.nuget\\packages\\",
-        "outputPath": "E:\\Prioxis\\Recipe.Common\\obj\\",
+        "outputPath": "E:\\Prioxis\\Evaluation\\Recipe.Common\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\akbar\\AppData\\Roaming\\NuGet\\NuGet.Config",
